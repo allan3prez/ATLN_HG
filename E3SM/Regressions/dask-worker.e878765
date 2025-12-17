@@ -1,0 +1,27 @@
+2025-12-13 17:50:56,721 - distributed.nanny - INFO -         Start Nanny at: 'tcp://128.117.208.185:37063'
+2025-12-13 17:50:58,440 - distributed.worker - INFO -       Start worker at: tcp://128.117.208.185:40765
+2025-12-13 17:50:58,440 - distributed.worker - INFO -          Listening to: tcp://128.117.208.185:40765
+2025-12-13 17:50:58,440 - distributed.worker - INFO -           Worker name:               PBSCluster-3
+2025-12-13 17:50:58,440 - distributed.worker - INFO -          dashboard at:      128.117.208.185:42173
+2025-12-13 17:50:58,440 - distributed.worker - INFO - Waiting to connect to: tcp://128.117.208.184:38793
+2025-12-13 17:50:58,440 - distributed.worker - INFO - -------------------------------------------------
+2025-12-13 17:50:58,440 - distributed.worker - INFO -               Threads:                          1
+2025-12-13 17:50:58,440 - distributed.worker - INFO -                Memory:                  29.80 GiB
+2025-12-13 17:50:58,440 - distributed.worker - INFO -       Local Directory: /glade/derecho/scratch/acruz/tmp/dask-scratch-space/worker-hq86gkjm
+2025-12-13 17:50:58,440 - distributed.worker - INFO - -------------------------------------------------
+2025-12-13 17:50:58,468 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-12-13 17:50:58,468 - distributed.worker - INFO -         Registered to: tcp://128.117.208.184:38793
+2025-12-13 17:50:58,468 - distributed.worker - INFO - -------------------------------------------------
+2025-12-13 17:50:58,469 - distributed.core - INFO - Starting established connection to tcp://128.117.208.184:38793
+/glade/u/home/acruz/.conda/envs/analysis_11_20_2025/lib/python3.11/site-packages/dask/_task_spec.py:759: RuntimeWarning: divide by zero encountered in divide
+  return self.func(*new_argspec)
+/glade/u/home/acruz/.conda/envs/analysis_11_20_2025/lib/python3.11/site-packages/dask/_task_spec.py:759: RuntimeWarning: invalid value encountered in divide
+  return self.func(*new_argspec)
+/glade/u/home/acruz/.conda/envs/analysis_11_20_2025/lib/python3.11/site-packages/dask/_task_spec.py:759: RuntimeWarning: invalid value encountered in sqrt
+  return self.func(*new_argspec)
+2025-12-13 17:53:37,327 - distributed._signals - INFO - Received signal SIGTERM (15)
+2025-12-13 17:53:37,330 - distributed.nanny - INFO - Closing Nanny at 'tcp://128.117.208.185:37063'. Reason: signal-15
+2025-12-13 17:53:37,331 - distributed.nanny - INFO - Nanny asking worker to close. Reason: signal-15
+2025-12-13 17:53:37,346 - distributed.nanny - INFO - Worker process 61100 was killed by signal 15
+2025-12-13 17:53:37,349 - distributed.nanny - INFO - Nanny at 'tcp://128.117.208.185:37063' closed.
+2025-12-13 17:53:37,350 - distributed.dask_worker - INFO - End worker

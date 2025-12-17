@@ -1,0 +1,21 @@
+2025-12-13 17:50:56,742 - distributed.nanny - INFO -         Start Nanny at: 'tcp://128.117.208.186:40055'
+2025-12-13 17:50:58,293 - distributed.worker - INFO -       Start worker at: tcp://128.117.208.186:33649
+2025-12-13 17:50:58,294 - distributed.worker - INFO -          Listening to: tcp://128.117.208.186:33649
+2025-12-13 17:50:58,294 - distributed.worker - INFO -           Worker name:               PBSCluster-2
+2025-12-13 17:50:58,294 - distributed.worker - INFO -          dashboard at:      128.117.208.186:45085
+2025-12-13 17:50:58,294 - distributed.worker - INFO - Waiting to connect to: tcp://128.117.208.184:38793
+2025-12-13 17:50:58,294 - distributed.worker - INFO - -------------------------------------------------
+2025-12-13 17:50:58,294 - distributed.worker - INFO -               Threads:                          1
+2025-12-13 17:50:58,294 - distributed.worker - INFO -                Memory:                  29.80 GiB
+2025-12-13 17:50:58,294 - distributed.worker - INFO -       Local Directory: /glade/derecho/scratch/acruz/tmp/dask-scratch-space/worker-_fr6au7a
+2025-12-13 17:50:58,294 - distributed.worker - INFO - -------------------------------------------------
+2025-12-13 17:50:58,324 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-12-13 17:50:58,324 - distributed.worker - INFO -         Registered to: tcp://128.117.208.184:38793
+2025-12-13 17:50:58,325 - distributed.worker - INFO - -------------------------------------------------
+2025-12-13 17:50:58,325 - distributed.core - INFO - Starting established connection to tcp://128.117.208.184:38793
+2025-12-13 17:53:37,389 - distributed._signals - INFO - Received signal SIGTERM (15)
+2025-12-13 17:53:37,392 - distributed.nanny - INFO - Closing Nanny at 'tcp://128.117.208.186:40055'. Reason: signal-15
+2025-12-13 17:53:37,392 - distributed.nanny - INFO - Nanny asking worker to close. Reason: signal-15
+2025-12-13 17:53:37,405 - distributed.nanny - INFO - Worker process 128432 was killed by signal 15
+2025-12-13 17:53:37,408 - distributed.nanny - INFO - Nanny at 'tcp://128.117.208.186:40055' closed.
+2025-12-13 17:53:37,408 - distributed.dask_worker - INFO - End worker

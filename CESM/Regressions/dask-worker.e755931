@@ -1,0 +1,24 @@
+2025-12-08 14:44:08,084 - distributed.nanny - INFO -         Start Nanny at: 'tcp://128.117.208.174:40881'
+2025-12-08 14:44:09,382 - distributed.worker - INFO -       Start worker at: tcp://128.117.208.174:35317
+2025-12-08 14:44:09,382 - distributed.worker - INFO -          Listening to: tcp://128.117.208.174:35317
+2025-12-08 14:44:09,382 - distributed.worker - INFO -           Worker name:               PBSCluster-0
+2025-12-08 14:44:09,382 - distributed.worker - INFO -          dashboard at:      128.117.208.174:44417
+2025-12-08 14:44:09,382 - distributed.worker - INFO - Waiting to connect to: tcp://128.117.208.175:34319
+2025-12-08 14:44:09,382 - distributed.worker - INFO - -------------------------------------------------
+2025-12-08 14:44:09,382 - distributed.worker - INFO -               Threads:                          1
+2025-12-08 14:44:09,382 - distributed.worker - INFO -                Memory:                  29.80 GiB
+2025-12-08 14:44:09,382 - distributed.worker - INFO -       Local Directory: /glade/derecho/scratch/acruz/tmp/dask-scratch-space/worker-hkhs4qzw
+2025-12-08 14:44:09,382 - distributed.worker - INFO - -------------------------------------------------
+2025-12-08 14:44:09,410 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-12-08 14:44:09,410 - distributed.worker - INFO -         Registered to: tcp://128.117.208.175:34319
+2025-12-08 14:44:09,410 - distributed.worker - INFO - -------------------------------------------------
+2025-12-08 14:44:09,410 - distributed.core - INFO - Starting established connection to tcp://128.117.208.175:34319
+2025-12-08 14:44:17,562 - distributed.core - INFO - Event loop was unresponsive in Worker for 8.15s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+/glade/u/home/acruz/.conda/envs/analysis_11_20_2025/lib/python3.11/site-packages/dask/_task_spec.py:759: RuntimeWarning: invalid value encountered in divide
+  return self.func(*new_argspec)
+2025-12-08 14:53:24,634 - distributed._signals - INFO - Received signal SIGTERM (15)
+2025-12-08 14:53:24,635 - distributed.nanny - INFO - Closing Nanny at 'tcp://128.117.208.174:40881'. Reason: signal-15
+2025-12-08 14:53:24,635 - distributed.nanny - INFO - Nanny asking worker to close. Reason: signal-15
+2025-12-08 14:53:24,655 - distributed.nanny - INFO - Worker process 39775 was killed by signal 15
+2025-12-08 14:53:24,659 - distributed.nanny - INFO - Nanny at 'tcp://128.117.208.174:40881' closed.
+2025-12-08 14:53:24,659 - distributed.dask_worker - INFO - End worker

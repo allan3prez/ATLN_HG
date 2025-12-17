@@ -1,0 +1,28 @@
+2025-12-13 17:50:56,558 - distributed.nanny - INFO -         Start Nanny at: 'tcp://128.117.208.178:32791'
+2025-12-13 17:50:58,351 - distributed.worker - INFO -       Start worker at: tcp://128.117.208.178:40005
+2025-12-13 17:50:58,352 - distributed.worker - INFO -          Listening to: tcp://128.117.208.178:40005
+2025-12-13 17:50:58,352 - distributed.worker - INFO -           Worker name:               PBSCluster-0
+2025-12-13 17:50:58,352 - distributed.worker - INFO -          dashboard at:      128.117.208.178:46627
+2025-12-13 17:50:58,352 - distributed.worker - INFO - Waiting to connect to: tcp://128.117.208.184:38793
+2025-12-13 17:50:58,352 - distributed.worker - INFO - -------------------------------------------------
+2025-12-13 17:50:58,352 - distributed.worker - INFO -               Threads:                          1
+2025-12-13 17:50:58,352 - distributed.worker - INFO -                Memory:                  29.80 GiB
+2025-12-13 17:50:58,352 - distributed.worker - INFO -       Local Directory: /glade/derecho/scratch/acruz/tmp/dask-scratch-space/worker-lzf0salb
+2025-12-13 17:50:58,352 - distributed.worker - INFO - -------------------------------------------------
+2025-12-13 17:50:58,389 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-12-13 17:50:58,389 - distributed.worker - INFO -         Registered to: tcp://128.117.208.184:38793
+2025-12-13 17:50:58,390 - distributed.worker - INFO - -------------------------------------------------
+2025-12-13 17:50:58,390 - distributed.core - INFO - Starting established connection to tcp://128.117.208.184:38793
+2025-12-13 17:51:05,079 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.83s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+/glade/u/home/acruz/.conda/envs/analysis_11_20_2025/lib/python3.11/site-packages/dask/_task_spec.py:759: RuntimeWarning: divide by zero encountered in divide
+  return self.func(*new_argspec)
+/glade/u/home/acruz/.conda/envs/analysis_11_20_2025/lib/python3.11/site-packages/dask/_task_spec.py:759: RuntimeWarning: invalid value encountered in divide
+  return self.func(*new_argspec)
+/glade/u/home/acruz/.conda/envs/analysis_11_20_2025/lib/python3.11/site-packages/dask/_task_spec.py:759: RuntimeWarning: invalid value encountered in sqrt
+  return self.func(*new_argspec)
+2025-12-13 17:53:37,338 - distributed._signals - INFO - Received signal SIGTERM (15)
+2025-12-13 17:53:37,341 - distributed.nanny - INFO - Closing Nanny at 'tcp://128.117.208.178:32791'. Reason: signal-15
+2025-12-13 17:53:37,341 - distributed.nanny - INFO - Nanny asking worker to close. Reason: signal-15
+2025-12-13 17:53:37,356 - distributed.nanny - INFO - Worker process 42376 was killed by signal 15
+2025-12-13 17:53:37,359 - distributed.nanny - INFO - Nanny at 'tcp://128.117.208.178:32791' closed.
+2025-12-13 17:53:37,359 - distributed.dask_worker - INFO - End worker
